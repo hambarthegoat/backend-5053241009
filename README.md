@@ -35,7 +35,7 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 Commit adalah dimana kita menyimpan perubahan yang telah kita buat, sedangkan push adalah dimana kita mengirimkan commit ke remote repository.
 
 ## Reproducibility
-(tulis di sini)
+Reproducibility berarti kode menghasilkan output yang sama di lingkungan yang berbeda. Sebagai contoh, jika anggota tim menjalankan program ini dengan versi Go yang berbeda (misal go1.21 vs go1.23), biasanya tidak masalah untuk kode sederhana seperti ini karena CetakInfo sendiri mencetak runtime.Version() sehingga perbedaan itu terlihat jelas. Tapi ini bisa jadi masalah nyata kalau kode memakai fitur bahasa atau standard library yang baru ditambahkan di versi tertentu yang memakai Go versi lebih lama akan gagal compile, atau kalau ada perubahan behavior antar versi (misal urutan map berubah, atau fungsi deprecated dihapus), hasil program bisa berbeda meski source code-nya sama.
 
 ## Catatan Merge Conflict
 (tulis di sini)
