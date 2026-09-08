@@ -41,7 +41,7 @@ Reproducibility berarti kode menghasilkan output yang sama di lingkungan yang be
 Catatan merge conflict adalah catatan yang muncul ketika terjadi konflik saat melakukan merge, yaitu ketika ada perubahan yang berbeda antara branch yang sedang kita kerjakan dan branch yang akan di-merge. Di sini, branch main dan branch fitur-sapaan keduanya melakukan commit yang mengubah 1 line yagn sama dengan hasil berbeda, menyebabkan adanya coflict yang harus di resolve secara manual, disini saya memilih accept both changes
 
 ## Kenapa .gitignore Penting
-(tulis di sini)
+.gitignore adalah file yang digunakan untuk menentukan file mana yang akan di-ignore oleh Git, yaitu file yang tidak akan dimasukkan ke dalam repository. Ini penting untuk menjaga kebersihan repository dan menghindari file yang tidak perlu di-commit.
 
 ## Refleksi
-(tulis di sini)
+Tidak ada soal yang membingungkan, semua soal sudah jelas dan straightforward.  
