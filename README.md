@@ -32,7 +32,7 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 - Kelas: M
 
 ## Commit vs Push
-(tulis di sini)
+Commit adalah dimana kita menyimpan perubahan yang telah kita buat, sedangkan push adalah dimana kita mengirimkan commit ke remote repository.
 
 ## Reproducibility
 (tulis di sini)
